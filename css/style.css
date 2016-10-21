@@ -1,0 +1,132 @@
+body, html{
+	font-family: Montserrat;
+}
+#header{
+	position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0 20px;
+    font-size: 14px;
+    background: #fff;
+    border-bottom: 1px solid #dce0e0;
+    z-index: 3;
+	max-height: 61px;
+}
+#logo{
+	border-right: 2px solid #dce0e0;
+	height: 100%;
+	max-width: 122px;
+	min-width: 122px;
+}
+#logo img{
+	padding: 12px;
+	margin-left: -7px;
+}
+#search-box{
+	min-width: 600px;
+}
+#search{
+    margin-top: 8px;
+    font-size: 14px;
+	border: none;
+	height: 100%;
+}
+#nav{
+	margin-top: 10px;
+	margin-right:0;
+	min-width: 370px;
+	float: right;
+}
+#nav li{
+	font-size: 14px;
+}
+#nav .login{
+	border-right: 2px solid #dce0e0;
+}
+#host{
+	margin-top: 3px;
+	margin-right: 20px;
+}
+#hero{
+	background-color: transparent;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-image: url('../img/hero.jpg');
+    height: 580px;
+}
+#hero-bar{
+    background-color: #00a699;
+    padding-bottom: 30px;
+	min-height: 400px;
+	margin-left: 80px;
+	margin-top: 110px;
+}
+#hero-bar h1{
+	margin: 50px 50px 30px 30px;
+	color: #fff;
+	font-size: 40px;
+	line-height: 1.1;
+    text-rendering: optimizelegibility;
+    text-align: justify;
+}
+#hero-bar p{
+	margin: 0 50px 30px 30px;
+	color: #fff;
+	font-size: 17px;
+	line-height: 22px;
+    text-rendering: optimizelegibility;
+    text-align: justify;
+}
+#hero-bar .btn{
+    margin: 0 50px 0 30px;
+    background-color: #ff0078;
+}
+footer{
+	background-color: #333;
+	min-height: 100px;
+	padding: 30px 0 30px 0;
+}
+footer .text-center h2{
+	color: #fff;
+	font-size: 17px;
+	text-align: center;
+}
+footer .text-center p{
+	text-align: center;
+	color: #fff;
+}
+footer .text-center p i{
+	margin: 5px;
+	color: #fff;
+	padding: 10px;
+	display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0px 0px 2px #888;
+}
+/* mobile css */
+@media (max-width: 992px) {
+	#search-box{
+	    min-width: 300px;
+	    
+    }
+	#nav .dont-show{
+		display: none;
+	}
+	#host{
+	    margin-top: 3px;
+	    margin-right: 20px;
+	    border: none;
+    }
+    #hero{
+    	margin-top: -50px;
+    }
+    #hero-bar{
+		margin-left: 30px;
+		margin-bottom: 10px;
+    }
+}
